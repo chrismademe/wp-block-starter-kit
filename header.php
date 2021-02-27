@@ -10,4 +10,4 @@
 
     <?php wp_body_open(); ?>
 
-    <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'block_starter_kit' ); ?></a>
+    <a class="skip-link" href="#content"><?php esc_html_e( 'Skip to content', 'block_starter_kit' ); ?></a>

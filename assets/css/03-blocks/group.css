@@ -1,0 +1,4 @@
+.wp-block-group__inner-container > * + * {
+	--flow-space: var(--space-4);
+	margin-top: var(--flow-space);
+}

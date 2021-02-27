@@ -1,4 +1,9 @@
+html {
+	font-size: 18px;
+}
+
 body {
+	background-color: white;
 	color: var(--color-primary, black);
 	font-family: var(--font-base, sans-serif);
 }

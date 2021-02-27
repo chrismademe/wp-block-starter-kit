@@ -1,7 +1,7 @@
 {
     "outputDir": "assets/css",
     "tokens": {
-        "colors": {
+        "color": {
             "primary": "#111827",
             "gray-dark": "#374151",
             "gray": "#6B7280",
@@ -83,7 +83,7 @@
             "loose": ".1rem"
         },
         "radius": {
-            "base": ".25rem",
+            "base": ".5rem",
             "full": "99999px"
         },
         "shadow": {

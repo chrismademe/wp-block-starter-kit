@@ -1,0 +1,5 @@
+:root {
+	--flow-space: var(--space-4);
+
+	--image-radius: var(--radius-base);
+}

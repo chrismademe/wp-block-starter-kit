@@ -1,0 +1,30 @@
+.wp-block-media-text {
+	row-gap: var(--flow-space);
+}
+
+/* Remove radius for full width media */
+.wp-block-media-text.alignfull .wp-block-media-text__media img,
+.wp-block-media-text.alignfull .wp-block-media-text__media video {
+	border-radius: 0;
+}
+
+.wp-block-media-text__content > * + * {
+	--flow-space: var(--space-4);
+	margin-top: var(--flow-space);
+}
+
+@media (min-width: 600px) {
+	.wp-block-media-text.alignfull .wp-block-media-text__media img,
+	.wp-block-media-text.alignfull .wp-block-media-text__media video {
+		border-radius: 0 var(--image-radius) var(--image-radius) 0;
+	}
+
+	.wp-block-media-text.alignfull.has-media-on-the-right
+		.wp-block-media-text__media
+		img,
+	.wp-block-media-text.alignfull.has-media-on-the-right
+		.wp-block-media-text__media
+		video {
+		border-radius: var(--image-radius) 0 0 var(--image-radius);
+	}
+}
