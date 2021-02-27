@@ -1,0 +1,97 @@
+{
+    "outputDir": "assets/css",
+    "tokens": {
+        "colors": {
+            "primary": "#111827",
+            "gray-dark": "#374151",
+            "gray": "#6B7280",
+            "gray-light": "#D1D5DB",
+            "gray-faded": "#F3F4F6",
+            "positive-dark": "#166534",
+            "positive": "#16A34A",
+            "positive-light": "#86EFAC",
+            "positive-faded": "#DCFCE7",
+            "warning-dark": "#92400E",
+            "warning": "#F59E0B",
+            "warning-light": "#FCD34D",
+            "warning-faded": "#FEF3C7",
+            "negative-dark": "#991B1B",
+            "negative": "#DC2626",
+            "negative-light": "#FCA5A5",
+            "negative-faded": "#FEE2E2",
+            "neutral-dark": "#1E40AF",
+            "neutral": "#2563EB",
+            "neutral-light": "#93C5FD",
+            "neutral-faded": "#DBEAFE"
+        },
+        "font": {
+            "base": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\""
+        },
+        "weight": {
+            "normal": 400,
+            "bold": 700,
+            "heavy": 900
+        },
+        "size": {
+            "xs": ".64rem",
+            "sm": ".8rem",
+            "base": "1rem",
+            "lg": "1.25rem",
+            "xl": "1.563rem",
+            "2xl": "1.953rem",
+            "3xl": "2.441rem",
+            "4xl": "3.052rem"
+        },
+        "space": {
+            "px": "1px",
+            "half": ".125rem",
+            "1": ".25rem",
+            "2": ".5rem",
+            "3": ".75rem",
+            "4": "1rem",
+            "6": "1.5rem",
+            "8": "2rem",
+            "10": "2.5rem",
+            "12": "3rem",
+            "16": "4rem",
+            "20": "5rem",
+            "24": "6rem",
+            "28": "7rem",
+            "32": "8rem",
+            "40": "10rem",
+            "48": "12rem",
+            "56": "14rem",
+            "64": "16rem"
+        },
+        "max-width": {
+            "xs": "32ch",
+            "sm": "40ch",
+            "md": "60ch",
+            "lg": "70ch",
+            "xl": "85ch"
+        },
+        "leading": {
+            "none": 1,
+            "tight": 1.1,
+            "base": 1.5,
+            "loose": 1.8
+        },
+        "tracking": {
+            "tight": "-.025rem",
+            "base": "auto",
+            "wide": ".05rem",
+            "loose": ".1rem"
+        },
+        "radius": {
+            "base": ".25rem",
+            "full": "99999px"
+        },
+        "shadow": {
+            "sm": "0 0.1rem 0.2rem rgba(0, 0, 0, 0.05), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05)",
+            "default": "0 0.1rem 0.2rem rgba(0, 0, 0, 0.05), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05), 0 0.4rem 0.6rem rgba(0, 0, 0, 0.05)",
+            "lg": "0 0.2rem 0.4rem rgba(0, 0, 0, 0.05), 0 0.4rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.6rem 1rem rgba(0, 0, 0, 0.05)",
+            "xl": "0 0.2rem 0.4rem rgba(0, 0, 0, 0.05), 0 0.6rem 0.8rem rgba(0, 0, 0, 0.05), 0 0.8rem 1.2rem rgba(0, 0, 0, 0.05), 0 1rem 1.6rem rgba(0, 0, 0, 0.05)",
+            "2xl": "0 0.4rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.8rem 1rem rgba(0, 0, 0, 0.05), 0 1rem 1.4rem rgba(0, 0, 0, 0.05), 0 1.2rem 2rem rgba(0, 0, 0, 0.05), 0 1.4rem 2.2rem rgba(0, 0, 0, 0.05)"
+        }
+    }
+}

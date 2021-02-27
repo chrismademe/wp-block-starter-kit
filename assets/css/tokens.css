@@ -1,0 +1,82 @@
+:root {
+  --colors-primary: #111827;
+  --colors-gray-dark: #374151;
+  --colors-gray: #6b7280;
+  --colors-gray-light: #d1d5db;
+  --colors-gray-faded: #f3f4f6;
+  --colors-positive-dark: #166534;
+  --colors-positive: #16a34a;
+  --colors-positive-light: #86efac;
+  --colors-positive-faded: #dcfce7;
+  --colors-warning-dark: #92400e;
+  --colors-warning: #f59e0b;
+  --colors-warning-light: #fcd34d;
+  --colors-warning-faded: #fef3c7;
+  --colors-negative-dark: #991b1b;
+  --colors-negative: #dc2626;
+  --colors-negative-light: #fca5a5;
+  --colors-negative-faded: #fee2e2;
+  --colors-neutral-dark: #1e40af;
+  --colors-neutral: #2563eb;
+  --colors-neutral-light: #93c5fd;
+  --colors-neutral-faded: #dbeafe;
+  --font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --weight-normal: 400;
+  --weight-bold: 700;
+  --weight-heavy: 900;
+  --size-xs: 0.64rem;
+  --size-sm: 0.8rem;
+  --size-base: 1rem;
+  --size-lg: 1.25rem;
+  --size-xl: 1.563rem;
+  --size-2xl: 1.953rem;
+  --size-3xl: 2.441rem;
+  --size-4xl: 3.052rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-28: 7rem;
+  --space-32: 8rem;
+  --space-40: 10rem;
+  --space-48: 12rem;
+  --space-56: 14rem;
+  --space-64: 16rem;
+  --space-px: 1px;
+  --space-half: 0.125rem;
+  --max-width-xs: 32ch;
+  --max-width-sm: 40ch;
+  --max-width-md: 60ch;
+  --max-width-lg: 70ch;
+  --max-width-xl: 85ch;
+  --leading-none: 1;
+  --leading-tight: 1.1;
+  --leading-base: 1.5;
+  --leading-loose: 1.8;
+  --tracking-tight: -0.025rem;
+  --tracking-base: auto;
+  --tracking-wide: 0.05rem;
+  --tracking-loose: 0.1rem;
+  --radius-base: 0.25rem;
+  --radius-full: 99999px;
+  --shadow-sm: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.05),
+    0 0.2rem 0.4rem rgba(0, 0, 0, 0.05);
+  --shadow-default: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.05),
+    0 0.2rem 0.4rem rgba(0, 0, 0, 0.05), 0 0.4rem 0.6rem rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05),
+    0 0.4rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.6rem 1rem rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05),
+    0 0.6rem 0.8rem rgba(0, 0, 0, 0.05), 0 0.8rem 1.2rem rgba(0, 0, 0, 0.05),
+    0 1rem 1.6rem rgba(0, 0, 0, 0.05);
+  --shadow-2xl: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.05),
+    0 0.8rem 1rem rgba(0, 0, 0, 0.05), 0 1rem 1.4rem rgba(0, 0, 0, 0.05),
+    0 1.2rem 2rem rgba(0, 0, 0, 0.05), 0 1.4rem 2.2rem rgba(0, 0, 0, 0.05);
+}
