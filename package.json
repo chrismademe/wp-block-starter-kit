@@ -1,13 +1,13 @@
 {
   "scripts": {
-    "dev": "npx chokidar \"assets/css/*.css\" -c \"npm run build:css\" --initial",
-    "build:css": "npx postcss assets/css/main.css -o assets/css/main.bundle.css",
+    "dev": "npx chokidar \"assets/css/*.css\" \"assets/css/**/*.css\" -c \"npm run build:css\" --initial",
+    "build:css": "npx postcss assets/css/main.css -o style.css",
     "tokens": "npx kubas"
   },
   "devDependencies": {
-    "chokidar": "^3.5.1",
+    "chokidar-cli": "^2.1.0",
     "kubas": "^0.3.0",
-    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.0"
   }
 }

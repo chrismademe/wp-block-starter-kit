@@ -1,0 +1,53 @@
+.block-area {
+	--columns: var(--gutter) var(--gutter) 1fr var(--gutter) var(--gutter);
+	--gutter: var(--space-8, 2rem);
+
+	display: grid;
+	grid-template-columns: var(--columns);
+}
+
+.block-area > * {
+	grid-column: 2 / span 3;
+}
+
+.block-area > .alignwide,
+.block-area > .alignfull {
+	grid-column: 1 / span 5;
+}
+
+@media (min-width: 460px) {
+	.block-area > * {
+		grid-column: 3;
+	}
+
+	.block-area > .alignwide {
+		grid-column: 2 / span 3;
+	}
+}
+
+@media (min-width: 768px) {
+	.block-area {
+		--content-width: 640px;
+		--columns: var(--gutter) 1fr var(--content-width) 1fr var(--gutter);
+	}
+}
+
+@media (min-width: 1024px) {
+	.block-area {
+		--content-width: 720px;
+		--columns: var(--gutter) 1fr 1fr var(--content-width) 1fr 1fr
+			var(--gutter);
+	}
+
+	.block-area > * {
+		grid-column: 4;
+	}
+
+	.block-area > .alignwide {
+		grid-column: 3 / span 3;
+	}
+
+	.block-area > .alignfull {
+		grid-column: 1 / span 7;
+	}
+}

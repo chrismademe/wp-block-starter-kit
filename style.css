@@ -15,3 +15,444 @@ Text Domain: block_starter_kit
 Block Starter Kit WordPress Theme, (C) 2020 WordPress.org
 Block Starter Kit is distributed under the terms of the GNU GPL.
 */
+:root {
+  --colors-primary: #111827;
+  --colors-gray-dark: #374151;
+  --colors-gray: #6b7280;
+  --colors-gray-light: #d1d5db;
+  --colors-gray-faded: #f3f4f6;
+  --colors-positive-dark: #166534;
+  --colors-positive: #16a34a;
+  --colors-positive-light: #86efac;
+  --colors-positive-faded: #dcfce7;
+  --colors-warning-dark: #92400e;
+  --colors-warning: #f59e0b;
+  --colors-warning-light: #fcd34d;
+  --colors-warning-faded: #fef3c7;
+  --colors-negative-dark: #991b1b;
+  --colors-negative: #dc2626;
+  --colors-negative-light: #fca5a5;
+  --colors-negative-faded: #fee2e2;
+  --colors-neutral-dark: #1e40af;
+  --colors-neutral: #2563eb;
+  --colors-neutral-light: #93c5fd;
+  --colors-neutral-faded: #dbeafe;
+  --font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --weight-normal: 400;
+  --weight-bold: 700;
+  --weight-heavy: 900;
+  --size-xs: 0.64rem;
+  --size-sm: 0.8rem;
+  --size-base: 1rem;
+  --size-lg: 1.25rem;
+  --size-xl: 1.563rem;
+  --size-2xl: 1.953rem;
+  --size-3xl: 2.441rem;
+  --size-4xl: 3.052rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-28: 7rem;
+  --space-32: 8rem;
+  --space-40: 10rem;
+  --space-48: 12rem;
+  --space-56: 14rem;
+  --space-64: 16rem;
+  --space-px: 1px;
+  --space-half: 0.125rem;
+  --max-width-xs: 32ch;
+  --max-width-sm: 40ch;
+  --max-width-md: 60ch;
+  --max-width-lg: 70ch;
+  --max-width-xl: 85ch;
+  --leading-none: 1;
+  --leading-tight: 1.1;
+  --leading-base: 1.5;
+  --leading-loose: 1.8;
+  --tracking-tight: -0.025rem;
+  --tracking-base: auto;
+  --tracking-wide: 0.05rem;
+  --tracking-loose: 0.1rem;
+  --radius-base: 0.25rem;
+  --radius-full: 99999px;
+  --shadow-sm: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.05),
+    0 0.2rem 0.4rem rgba(0, 0, 0, 0.05);
+  --shadow-default: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.05),
+    0 0.2rem 0.4rem rgba(0, 0, 0, 0.05), 0 0.4rem 0.6rem rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05),
+    0 0.4rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.6rem 1rem rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05),
+    0 0.6rem 0.8rem rgba(0, 0, 0, 0.05), 0 0.8rem 1.2rem rgba(0, 0, 0, 0.05),
+    0 1rem 1.6rem rgba(0, 0, 0, 0.05);
+  --shadow-2xl: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.05),
+    0 0.8rem 1rem rgba(0, 0, 0, 0.05), 0 1rem 1.4rem rgba(0, 0, 0, 0.05),
+    0 1.2rem 2rem rgba(0, 0, 0, 0.05), 0 1.4rem 2.2rem rgba(0, 0, 0, 0.05);
+}
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+body {
+	color: var(--color-primary, black);
+	font-family: var(--font-base, sans-serif);
+}
+a {
+	color: var(--color-neutral, blue);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	line-height: var(--leading-none, 1);
+	letter-spacing: var(--tracking-tight, -0.1rem);
+}
+h1,
+.h1 {
+	font-size: var(--size-4xl);
+}
+h2,
+.h2 {
+	font-size: var(--size-3xl);
+}
+h3,
+.h3 {
+	font-size: var(--size-2xl);
+}
+h4,
+.h4 {
+	font-size: var(--size-xl);
+}
+.block-area {
+	--columns: var(--gutter) var(--gutter) 1fr var(--gutter) var(--gutter);
+	--gutter: var(--space-8, 2rem);
+
+	display: grid;
+	grid-template-columns: var(--columns);
+}
+.block-area > * {
+	grid-column: 2 / span 3;
+}
+.block-area > .alignwide,
+.block-area > .alignfull {
+	grid-column: 1 / span 5;
+}
+@media (min-width: 460px) {
+	.block-area > * {
+		grid-column: 3;
+	}
+
+	.block-area > .alignwide {
+		grid-column: 2 / span 3;
+	}
+}
+@media (min-width: 768px) {
+	.block-area {
+		--content-width: 640px;
+		--columns: var(--gutter) 1fr var(--content-width) 1fr var(--gutter);
+	}
+}
+@media (min-width: 1024px) {
+	.block-area {
+		--content-width: 720px;
+		--columns: var(--gutter) 1fr 1fr var(--content-width) 1fr 1fr
+			var(--gutter);
+	}
+
+	.block-area > * {
+		grid-column: 4;
+	}
+
+	.block-area > .alignwide {
+		grid-column: 3 / span 3;
+	}
+
+	.block-area > .alignfull {
+		grid-column: 1 / span 7;
+	}
+}
+.font-base {
+  font-family: var(--font-base);
+}
+.weight-normal {
+  font-weight: var(--weight-normal);
+}
+.weight-bold {
+  font-weight: var(--weight-bold);
+}
+.weight-heavy {
+  font-weight: var(--weight-heavy);
+}
+.size-xs {
+  font-size: var(--size-xs);
+}
+.size-sm {
+  font-size: var(--size-sm);
+}
+.size-base {
+  font-size: var(--size-base);
+}
+.size-lg {
+  font-size: var(--size-lg);
+}
+.size-xl {
+  font-size: var(--size-xl);
+}
+.size-2xl {
+  font-size: var(--size-2xl);
+}
+.size-3xl {
+  font-size: var(--size-3xl);
+}
+.size-4xl {
+  font-size: var(--size-4xl);
+}
+.p-1 {
+  padding: var(--space-1);
+}
+.p-2 {
+  padding: var(--space-2);
+}
+.p-3 {
+  padding: var(--space-3);
+}
+.p-4 {
+  padding: var(--space-4);
+}
+.p-6 {
+  padding: var(--space-6);
+}
+.p-8 {
+  padding: var(--space-8);
+}
+.p-10 {
+  padding: var(--space-10);
+}
+.p-12 {
+  padding: var(--space-12);
+}
+.p-16 {
+  padding: var(--space-16);
+}
+.p-20 {
+  padding: var(--space-20);
+}
+.p-24 {
+  padding: var(--space-24);
+}
+.p-28 {
+  padding: var(--space-28);
+}
+.p-32 {
+  padding: var(--space-32);
+}
+.p-40 {
+  padding: var(--space-40);
+}
+.p-48 {
+  padding: var(--space-48);
+}
+.p-56 {
+  padding: var(--space-56);
+}
+.p-64 {
+  padding: var(--space-64);
+}
+.p-px {
+  padding: var(--space-px);
+}
+.p-half {
+  padding: var(--space-half);
+}
+.m-1 {
+  margin: var(--space-1);
+}
+.m-2 {
+  margin: var(--space-2);
+}
+.m-3 {
+  margin: var(--space-3);
+}
+.m-4 {
+  margin: var(--space-4);
+}
+.m-6 {
+  margin: var(--space-6);
+}
+.m-8 {
+  margin: var(--space-8);
+}
+.m-10 {
+  margin: var(--space-10);
+}
+.m-12 {
+  margin: var(--space-12);
+}
+.m-16 {
+  margin: var(--space-16);
+}
+.m-20 {
+  margin: var(--space-20);
+}
+.m-24 {
+  margin: var(--space-24);
+}
+.m-28 {
+  margin: var(--space-28);
+}
+.m-32 {
+  margin: var(--space-32);
+}
+.m-40 {
+  margin: var(--space-40);
+}
+.m-48 {
+  margin: var(--space-48);
+}
+.m-56 {
+  margin: var(--space-56);
+}
+.m-64 {
+  margin: var(--space-64);
+}
+.m-px {
+  margin: var(--space-px);
+}
+.m-half {
+  margin: var(--space-half);
+}
+.flow-space-1 > * {
+  --flow-space: var(--space-1);
+}
+.flow-space-2 > * {
+  --flow-space: var(--space-2);
+}
+.flow-space-3 > * {
+  --flow-space: var(--space-3);
+}
+.flow-space-4 > * {
+  --flow-space: var(--space-4);
+}
+.flow-space-6 > * {
+  --flow-space: var(--space-6);
+}
+.flow-space-8 > * {
+  --flow-space: var(--space-8);
+}
+.flow-space-10 > * {
+  --flow-space: var(--space-10);
+}
+.flow-space-12 > * {
+  --flow-space: var(--space-12);
+}
+.flow-space-16 > * {
+  --flow-space: var(--space-16);
+}
+.flow-space-20 > * {
+  --flow-space: var(--space-20);
+}
+.flow-space-24 > * {
+  --flow-space: var(--space-24);
+}
+.flow-space-28 > * {
+  --flow-space: var(--space-28);
+}
+.flow-space-32 > * {
+  --flow-space: var(--space-32);
+}
+.flow-space-40 > * {
+  --flow-space: var(--space-40);
+}
+.flow-space-48 > * {
+  --flow-space: var(--space-48);
+}
+.flow-space-56 > * {
+  --flow-space: var(--space-56);
+}
+.flow-space-64 > * {
+  --flow-space: var(--space-64);
+}
+.flow-space-px > * {
+  --flow-space: var(--space-px);
+}
+.flow-space-half > * {
+  --flow-space: var(--space-half);
+}

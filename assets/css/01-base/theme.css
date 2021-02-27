@@ -1,4 +1,44 @@
 body {
-    color: var(--color-primary, black);
-    font-family: var(--font-base, sans-serif);
+	color: var(--color-primary, black);
+	font-family: var(--font-base, sans-serif);
+}
+
+a {
+	color: var(--color-neutral, blue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	line-height: var(--leading-none, 1);
+	letter-spacing: var(--tracking-tight, -0.1rem);
+}
+
+h1,
+.h1 {
+	font-size: var(--size-4xl);
+}
+
+h2,
+.h2 {
+	font-size: var(--size-3xl);
+}
+
+h3,
+.h3 {
+	font-size: var(--size-2xl);
+}
+
+h4,
+.h4 {
+	font-size: var(--size-xl);
 }

@@ -1,4 +1,8 @@
+@import '01-base/wordpress.css';
 @import 'tokens.css';
+
 @import '01-base/reset.css';
 @import '01-base/theme.css';
+
+@import '02-layout/block-area.css';
 @import 'utilities.css';
