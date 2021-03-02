@@ -224,9 +224,6 @@ h4,
 .h4 {
 	font-size: var(--size-xl);
 }
-p {
-	max-width: var(--max-width-md, 65ch);
-}
 .block-area,
 .block-editor-block-list__layout.is-root-container {
 	--gutter: var(--space-8, 2rem);

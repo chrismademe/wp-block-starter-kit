@@ -47,7 +47,3 @@ h4,
 .h4 {
 	font-size: var(--size-xl);
 }
-
-p {
-	max-width: var(--max-width-md, 65ch);
-}
