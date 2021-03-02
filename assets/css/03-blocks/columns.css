@@ -1,0 +1,9 @@
+.wp-block-columns.alignfull {
+	padding-left: var(--gutter);
+	padding-right: var(--gutter);
+}
+
+.wp-block-column > * + * {
+	--flow-space: var(--space-4);
+	margin-top: var(--flow-space);
+}

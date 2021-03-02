@@ -1,4 +1,17 @@
-figcaption {
+figcaption,
+cite {
 	color: var(--color-gray);
+	font-size: var(--size-sm);
 	text-align: center;
+}
+
+figcaption a {
+	font-weight: var(--weight-bold);
+}
+
+hr {
+	border-color: var(--color-gray-faded);
+	border-collapse: collapse;
+	display: block;
+	width: 100%;
 }

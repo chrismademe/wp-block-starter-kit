@@ -224,6 +224,9 @@ h4,
 .h4 {
 	font-size: var(--size-xl);
 }
+p {
+	max-width: var(--max-width-md, 65ch);
+}
 .block-area,
 .block-editor-block-list__layout.is-root-container {
 	--gutter: var(--space-8, 2rem);
@@ -328,20 +331,38 @@ h4,
 	margin-left: initial;
 	margin-right: initial;
 }
-figcaption {
+figcaption,
+cite {
 	color: var(--color-gray);
+	font-size: var(--size-sm);
 	text-align: center;
+}
+figcaption a {
+	font-weight: var(--weight-bold);
+}
+hr {
+	border-color: var(--color-gray-faded);
+	border-collapse: collapse;
+	display: block;
+	width: 100%;
+}
+.wp-block-columns.alignfull {
+	padding-left: var(--gutter);
+	padding-right: var(--gutter);
+}
+.wp-block-column > * + * {
+	--flow-space: var(--space-4);
+	margin-top: var(--flow-space);
 }
 .wp-block-cover,
 .wp-block-cover-image {
 	height: auto;
 }
-.blocks-gallery-item__caption a {
-	color: var(--color-neutral-faded);
-	font-weight: var(--weight-bold);
-}
 .blocks-gallery-item__caption {
 	border-radius: 0 0 var(--image-radius) var(--image-radius);
+}
+.blocks-gallery-item__caption a {
+	color: var(--color-neutral-faded);
 }
 .wp-block-group__inner-container > * + * {
 	--flow-space: var(--space-4);

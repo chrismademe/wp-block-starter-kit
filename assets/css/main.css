@@ -8,6 +8,7 @@
 @import '02-layout/block-area.css';
 
 @import '03-blocks/global.css';
+@import '03-blocks/columns.css';
 @import '03-blocks/cover.css';
 @import '03-blocks/gallery.css';
 @import '03-blocks/group.css';

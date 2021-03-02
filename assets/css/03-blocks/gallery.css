@@ -1,8 +1,7 @@
-.blocks-gallery-item__caption a {
-	color: var(--color-neutral-faded);
-	font-weight: var(--weight-bold);
-}
-
 .blocks-gallery-item__caption {
 	border-radius: 0 0 var(--image-radius) var(--image-radius);
+}
+
+.blocks-gallery-item__caption a {
+	color: var(--color-neutral-faded);
 }
