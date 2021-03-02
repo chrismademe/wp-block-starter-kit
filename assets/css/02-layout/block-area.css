@@ -58,7 +58,7 @@
 
 .block-area > .alignfull,
 .block-editor-block-list__layout.is-root-container > [data-align='full'] {
-	grid-column: 1 / span 5;
+	grid-column: 1 / -1;
 }
 
 @media (min-width: 460px) {
@@ -68,7 +68,7 @@
 	}
 
 	.block-area > .alignwide,
-	.block-editor-block-list__layout.is-root-container > [data-align='full'] {
+	.block-editor-block-list__layout.is-root-container > [data-align='wide'] {
 		grid-column: 2 / span 3;
 	}
 }
@@ -97,11 +97,6 @@
 	.block-area > .alignwide,
 	.block-editor-block-list__layout.is-root-container > [data-align='wide'] {
 		grid-column: 3 / span 3;
-	}
-
-	.block-area > .alignfull,
-	.block-editor-block-list__layout.is-root-container > [data-align='full'] {
-		grid-column: 1 / span 7;
 	}
 }
 
